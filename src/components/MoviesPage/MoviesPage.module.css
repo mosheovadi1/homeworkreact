@@ -1,0 +1,19 @@
+@import '../../assets/stylesheets/variables';
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar-container {
+    width: 100%;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.349);
+    background-color: rgb(243, 243, 243);
+}
+
+.movies-container {
+    padding: 30px;
+    display: flex;
+}

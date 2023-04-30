@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    margin-right: 15px;
+}
+
+.search-button {
+    font-size: 17px;
+    padding: 10px;
+    margin-left: 10px;
+}
