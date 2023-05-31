@@ -4,7 +4,7 @@ import { useNavigate } from "react-router";
 import { GenresContext } from "../components/GenresProvider/GenresProvider";
 
 const useSearch = (currentSearch = "") => {
-  const { genres, fetchGenres } = useContext(GenresContext);
+  const { genres, fetchGenres} = useContext(GenresContext);
   const navigate = useNavigate();
 
   const [searchValue, setSearchValue] = useState(currentSearch);
